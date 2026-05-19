@@ -6,8 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
 /* ---------- CSS Variables ---------- */
-:root {
-  --black:     #0a0a0a;
+:root { /* stores variables*/
+  --black:     #0a0a0a;   /* stores color*/
   --deep:      #111318;
   --panel:     #16191f;
   --border:    #252830;
@@ -22,7 +22,7 @@
 }
 
 /* ---------- Reset ---------- */
-*, *::before, *::after {
+*, *::before, *::after { /* helps the website to look the same on every browser*/
   box-sizing: border-box;
   margin: 0;
   padding: 0;
